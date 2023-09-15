@@ -1,0 +1,33 @@
+.pictures{
+    &__content{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 28px;
+       
+
+        img{
+            width: 25%;
+        }
+    }
+    .svg {
+        position:absolute;
+    }
+}
+
+@media screen and (max-width:1919px){
+    .pictures{
+        &__content{
+            display: flex;
+            flex-wrap: wrap;
+            img{
+                max-width: 100%;
+            }
+
+            .svg img{
+                max-width: 100%;
+            }
+        }
+       
+    }
+}
+

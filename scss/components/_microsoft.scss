@@ -1,0 +1,42 @@
+.microsoft{
+    &__content{
+       display: flex;
+        gap: 30px;
+        margin-top: 72px;
+        margin-bottom: 100px;
+    }
+}
+
+@media  screen and (max-width:1115px){
+    .microsoft{
+        &__content{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            img{
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+@media  screen and (max-width:824px){
+.microsoft{
+    &__content{
+        img{
+            transform: scale(.8);
+        }
+    }
+}
+}
+
+@media  screen and (max-width:539px){
+    .microsoft{
+        &__content{
+            img{
+                transform: scale(.7);
+            }
+        }
+    }
+}

@@ -1,0 +1,50 @@
+.jobe{
+    background: var(--Silver, #EEEFF1);
+    font-family: Roboto;
+    &__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h2{
+            color: #000;
+            font-size: 32px;
+            font-weight: 500;
+            margin-top: 100px;
+            margin-bottom: 50px;
+        }
+
+        p{
+            color: #727272;
+            text-align: center;
+            line-height: 164.063%;
+            max-width: 540px;
+            margin: 0;
+        }
+        
+        img{
+            margin-top: 57px;
+            margin-bottom: 100px;
+        }
+    }
+}
+
+@media screen and (max-width:1919px){
+    .jobe{
+   
+        &__content{
+            img{
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1210px){
+.jobe{
+    &__content{
+        img{
+            transform: scale(.9);
+        }
+    }
+}
+}
